@@ -590,7 +590,7 @@ export default function App() {
       <header className="sticky top-0 z-40 backdrop-blur-md bg-ios-light-bg/75 dark:bg-ios-dark-bg/75 border-b border-zinc-200/60 dark:border-zinc-900/60 transition-colors px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
         <div id="desktop-app-header-brand" className="aria-label flex items-center gap-1.5 sm:gap-2">
           <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl sm:rounded-2xl overflow-hidden flex items-center justify-center shadow-md shadow-brand-indigo/15 hover:rotate-6 transition-transform bg-white border border-zinc-200/50">
-            <img src={logoUrl} alt="AI Study Companion Logo" className="w-full h-full object-contain p-1" referrerPolicy="no-referrer" />
+            <img src={logoUrl} alt="AI Study Companion Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </div>
           <div>
             <h1 className="text-xs sm:text-sm font-black tracking-tight flex items-center gap-1 sm:gap-1.5 text-black dark:text-white">
