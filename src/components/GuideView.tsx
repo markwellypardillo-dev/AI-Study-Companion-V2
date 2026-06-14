@@ -99,7 +99,7 @@ export default function GuideView({ guide, fileName }: GuideViewProps) {
             <h2 className="text-lg font-black text-black dark:text-white flex items-center gap-2 mb-4 animate-fade-in">
               <span className="w-2.5 h-2.5 rounded-full bg-brand-indigo animate-pulse" /> Executive Digest
             </h2>
-            <div className="space-y-4 text-sm leading-relaxed text-black/85 dark:text-zinc-305">
+            <div className="space-y-4 text-sm leading-relaxed text-black/85 dark:text-zinc-300">
               {guide.summary.split("\n\n").map((para, idx) => (
                 <p key={idx} className="indent-2">
                   {para}
